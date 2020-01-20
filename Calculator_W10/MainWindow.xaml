@@ -1,0 +1,39 @@
+﻿<Window x:Class="Kalkulačka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kalkulačka"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="428" Width="332" Background="DarkOrange">
+    <Grid Height="405">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="31*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="Display" Background="White" HorizontalAlignment="Left" Margin="10,9,0,0" Text="" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Top" Height="90" Width="175"/>
+        <TextBlock x:Name="History" Background="White" HorizontalAlignment="Left" Margin="190,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="380" Width="133" Grid.ColumnSpan="2"/>
+        <WrapPanel HorizontalAlignment="Left" Margin="10,104,0,0" Orientation="Vertical" VerticalAlignment="Top" Height="301" Width="175">
+            <Button x:Name="ButtonC" Content="C" Height="56" Width="40" FontSize="25"  VerticalAlignment="Top" HorizontalAlignment="Left" Click="ButtonC_Click"/>
+            <Button x:Name="ButtonSeven" Content="7" Height="56" Width="40" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Left" Click="ButtonSeven_Click"/>
+            <Button x:Name="ButtonFour" Content="4" Height="56" Width="40" FontSize="25"  VerticalAlignment="Center" HorizontalAlignment="Left" Click="ButtonFour_Click"/>
+            <Button x:Name="ButtonOne" Content="1" HorizontalAlignment="Left"  FontSize="25" VerticalAlignment="Top" Height="56" Width="40" Click="Button_Click"/>
+            <Button x:Name="ButtonPlusMinus" Content="+/-" HorizontalAlignment="Center" FontSize="25" VerticalAlignment="Center" Height="56" Width="40" Click="ButtonPlusMinus_Click"/>
+            <Button x:Name="ButtonDel" Content="Del" HorizontalAlignment="Left" FontSize="25" VerticalAlignment="Top" Height="56" Width="40" Click="ButtonDel_Click"/>
+            <Button x:Name="ButtonEight" Content="8" Height="56" FontSize="25" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Click="ButtonEight_Click"/>
+            <Button x:Name="ButtonFive" Content="5" Height="56" Width="40" FontSize="25"  VerticalAlignment="Center" HorizontalAlignment="Left" Click="ButtonFive_Click"/>
+            <Button x:Name="ButtonTwo" Content="2" HorizontalAlignment="Center" FontSize="25" VerticalAlignment="Center" Height="56" Width="40" Click="ButtonTwo_Click"/>
+            <Button x:Name="ButtonZero" Content="0" HorizontalAlignment="Center" FontSize="25" VerticalAlignment="Center" Height="56" Width="40" Click="ButtonZero_Click"/>
+            <Button x:Name="ButtonPercenage" Content="%" Height="56" Width="40" FontSize="25"  VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Button x:Name="ButtonNine" Content="9" Height="56" Width="40" FontSize="25"  VerticalAlignment="Top" HorizontalAlignment="Left" Click="ButtonNine_Click"/>
+            <Button x:Name="ButtonSix" Content="6" Height="56" Width="40" FontSize="25"  VerticalAlignment="Center" HorizontalAlignment="Left" Click="ButtonSix_Click"/>
+            <Button x:Name="ButtonThree" Content="3" HorizontalAlignment="Left" FontSize="25" VerticalAlignment="Top" Height="56" Width="40" Click="ButtonThree_Click"/>
+            <Button x:Name="ButtonDecimal" Content="," HorizontalAlignment="Center" FontSize="25" VerticalAlignment="Center" Height="56" Width="40" Click="ButtonDecimal_Click"/>
+            <Button x:Name="ButtonDivide" Content="/" HorizontalAlignment="Left" FontSize="25" VerticalAlignment="Top" Height="56" Width="40" Click="ButtonDivide_Click"/>
+            <Button x:Name="ButtonMultiply" Content="x" HorizontalAlignment="Left" FontSize="25" VerticalAlignment="Top" Height="56" Width="40" Click="ButtonMultiply_Click"/>
+            <Button x:Name="ButtonPlus" Content="+" HorizontalAlignment="Center" FontSize="25" VerticalAlignment="Center" Height="56" Width="40" Click="ButtonPlus_Click"/>
+            <Button x:Name="ButtonMinus" Content="-" HorizontalAlignment="Center" FontSize="25" VerticalAlignment="Center" Height="56" Width="40" Click="ButtonMinus_Click"/>
+            <Button x:Name="ButtonEquals" Content="=" HorizontalAlignment="Center" FontSize="25" VerticalAlignment="Top" Height="56" Width="40" Click="ButtonEquals_Click"/>
+        </WrapPanel>
+    </Grid>
+</Window>
