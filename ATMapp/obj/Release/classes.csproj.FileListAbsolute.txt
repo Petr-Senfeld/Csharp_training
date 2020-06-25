@@ -1,0 +1,7 @@
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\bin\Release\classes.exe.config
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\bin\Release\classes.exe
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\bin\Release\classes.pdb
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\obj\Release\classes.csprojAssemblyReference.cache
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\obj\Release\classes.exe
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\obj\Release\classes.pdb
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\obj\Release\classes.csproj.CoreCompileInputs.cache

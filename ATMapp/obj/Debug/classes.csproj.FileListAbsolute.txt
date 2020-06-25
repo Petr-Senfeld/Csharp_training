@@ -1,0 +1,6 @@
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\bin\Debug\classes.exe.config
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\bin\Debug\classes.exe
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\bin\Debug\classes.pdb
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\obj\Debug\classes.csprojAssemblyReference.cache
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\obj\Debug\classes.exe
+C:\Users\QR88UL\Google Drive\dotnet\C#\training\classes\obj\Debug\classes.pdb
